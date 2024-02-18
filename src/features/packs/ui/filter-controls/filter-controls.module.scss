@@ -1,0 +1,25 @@
+@import '@/styles/mixins';
+
+.filter {
+  @include flex(row, 24px, 24px, flex-end, space-between);
+
+  flex-wrap: wrap;
+
+  .textField {
+    flex: 0 1 300px;
+  }
+
+  .box {
+    @include flex(column, 7px);
+  }
+
+  .button {
+    flex-shrink: 0;
+
+    .icon {
+      width: 16px;
+      height: 16px;
+      fill: var(--color-light-100);
+    }
+  }
+}

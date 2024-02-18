@@ -1,0 +1,10 @@
+.hover {
+  &:hover {
+    cursor: pointer;
+  }
+
+  .arrow {
+    position: absolute;
+    padding-left: 12px;
+  }
+}
